@@ -57,7 +57,7 @@
     color: white;
     text-decoration: none;
     background-image: url(images/btn.png);
-    line-height: 18upx;
+    line-height: 16upx;
 }
 .wrapper{
 	min-height: 320px;
