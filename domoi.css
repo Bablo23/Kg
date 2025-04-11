@@ -1,0 +1,478 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: "Fjalla";
+	src: url(fonts/FjallaOne-Regular.ttf);
+}
+.glav{
+    min-height: 600px;
+    background-image: url(images/bg.png);
+    background-position: center;
+}
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.header{
+    min-height: 80px;
+    background-color: #29606b5c;
+    border: 1px solid #2a6c78;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-right: 27px;
+    padding-left: 27px;
+}
+.header ul{
+	max-width: 270px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+.text{
+	min-height: 180px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	font-family: "Fjalla";
+}
+.text h1{
+	font-size: 35px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.text p{
+	font-size: 22px;
+	text-transform: uppercase;
+}
+.text a{
+	padding: 17px 38px 24px;
+    color: white;
+    text-decoration: none;
+    background-image: url(images/btn.png);
+    line-height: 14px;
+}
+.wrapper{
+	min-height: 320px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end; 
+}
+.divki{
+	min-height: 670px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: -80px;
+}
+.bob{
+	max-width: 585px;
+	width: 100%;	
+	min-height: 335px;
+	background-color: #e84c3d;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bob h1{
+	font-family: "Fjalla";
+}
+.bu{
+	max-width: 420px;
+	text-align: center;
+}
+.crug{
+	max-width: 99px;
+	min-height: 99px;
+	border-radius: 50%;
+	background-color: white;
+}
+.wrapper2{
+	min-height: 225px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+.bob2{
+	max-width: 585px;
+	min-height: 335px;
+	width: 100%;
+	background-color: #fdbd1f;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bob3{
+	max-width: 585px;
+	min-height: 335px;
+	width: 100%;
+	background-color: #1bbc9b;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bob4{
+	max-width: 585px;
+	min-height: 335px;
+	width: 100%;
+	background-color: #9b58b5;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+body{
+	background-color: #29606b
+}
+.text2{
+	min-height: 210px;
+	color: white;
+	text-transform: uppercase;
+	font-family: "Fjalla One";	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.doptext{
+	min-height: 65px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.doptext p{
+	position: relative;
+	text-align: center;
+}
+.doptext p:before{
+	content: "";
+ 	width: 110px;
+ 	height: 2px;
+ 	background-color: #387d89;
+ 	position: absolute;
+ 	right: 430px;
+ 	top: 8px;
+}
+.doptext p:after{
+	content: "";
+ 	width: 110px;
+ 	height: 2px;
+ 	background-color: #377d89;
+ 	position: absolute;
+ 	right: -130px;
+ 	top: 8px;
+}
+.momo{
+	max-width: 370px;
+	min-height: 490px;
+	background-color: #235963;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: #e74b3d 8px solid;
+}
+.wrapper3{
+	max-width: 300px;
+	min-height: 395px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+.momo a{
+	width: 80px;
+	height: 36px;
+	background-color: #e74b3d;
+	text-align: center;
+	line-height: 36px;
+	text-decoration: none;
+	color: white;
+	font-family: "Fjalla";
+	position: relative;
+}
+.momo p{
+	text-align: center;
+	color: #70acb8;
+}
+.momo a:before{
+   	content: "";
+   	width: 0px;
+   	height: 0px;
+   	border-style: solid;
+   	border-width: 20px 20px 0 20px;
+   	border-color: #E74B3D transparent transparent transparent;
+   	transform: rotate(0deg);
+   	position: absolute;
+   	left: 20px;
+   	top: 26px;
+}
+.momo2{
+	max-width: 300px;
+	min-height: 490px;
+	background-color: #235963;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: #fdbd1f 8px solid;
+}
+.momo2 p{
+	text-align: center;
+	color: #70acb8;
+}
+.momo2 a{
+	width: 80px;
+	height: 36px;
+	background-color: #fdbd1f;
+	text-align: center;
+	line-height: 36px;
+	text-decoration: none;
+	color: white;
+	font-family: "Fjalla";
+	position: relative;
+}
+.momo2 a:before{
+	content: "";
+   	width: 0px;
+   	height: 0px;
+   	border-style: solid;
+   	border-width: 20px 20px 0 20px;
+   	border-color: #fdbd1f transparent transparent transparent;
+   	transform: rotate(0deg);
+   	position: absolute;
+   	left: 20px;
+   	top: 26px;
+}
+.momo3{
+	max-width: 300px;
+	min-height: 490px;
+	background-color: #235963;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: #1bbc9b 8px solid;
+}
+.momo3 p{
+	text-align: center;
+	color: #70acb8;
+}
+.momo3 a{
+	width: 80px;
+	height: 36px;
+	background-color: #1bbc9b;
+	text-align: center;
+	line-height: 36px;
+	text-decoration: none;
+	color: white;
+	font-family: "Fjalla";
+	position: relative;
+}
+.momo3 a:before{
+	content: "";
+   	width: 0px;
+   	height: 0px;
+   	border-style: solid;
+   	border-width: 20px 20px 0 20px;
+   	border-color: #1bbc9b transparent transparent transparent;
+   	transform: rotate(0deg);
+   	position: absolute;
+   	left: 20px;
+   	top: 26px;
+}
+.tumba{
+	max-width: 1170px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.text3{
+	min-height: 310px;
+	color: white;
+	text-transform: uppercase;
+	font-family: "Fjalla One";
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.doptext2{
+	min-height: 195px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.doptext2 h1{
+	text-align: center;
+}
+.doptext2 p{
+	position: relative;
+	text-align: center;
+}
+.doptext2 p:before{
+	content: "";
+ 	width: 80px;
+ 	height: 2px;
+ 	background-color: #377d89;
+ 	position: absolute;
+ 	right: 340px;
+ 	top: 8px;
+}
+.doptext2 p:after{
+	content: "";
+ 	width: 80px;
+ 	height: 2px;
+ 	background-color: #377d89;
+ 	position: absolute;
+ 	right: -100px;
+ 	top: 8px;
+}
+.ww{
+	border: 2px solid #377d89;
+	padding: 10px 150px 15px 10px;
+    background-color: #245963;
+}
+.glav4{
+	min-height: 700px;
+}
+.inputi{
+	max-width: 800px;
+	min-height: 300px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	padding: 0px 20px;	
+
+}
+.ff{
+	width: 570px;
+	height: 125px;
+	width: 100%;
+	border: 2px solid #377d89;
+	background-color: #245963;
+}
+.inputi a{
+    max-width: 102px;
+	min-height: 36px;
+	width: 100%;
+	background-color: #245963;
+	text-align: center;
+	line-height: 36px;
+	text-decoration: none;
+	color: white;
+	font-family: "Fjalla";
+	position: relative;
+	border: 2px solid #377d89;
+}
+.inputi a:before{
+	content: "";
+   	width: 0px;
+   	height: 0px;
+   	border-style: solid;
+   	border-width: 15px 20px 0 20px;
+   	border-color: #377d89  transparent transparent transparent;
+   	transform: rotate(0deg);
+   	position: absolute;
+   	left: 30px;
+   	top: 36px;
+}
+.inputi a:after{
+	content: "";
+   	width: 0px;
+   	height: 0px;
+   	border-style: solid;
+   	border-width: 15px 20px 0 20px;
+   	border-color: #245963 transparent transparent transparent;
+   	transform: rotate(0deg);
+   	position: absolute;
+   	left: 30px;
+   	top: 33px;
+}
+.op{
+	max-width: 800px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.glav5{
+	min-height: 200px;
+	background-color: #245963;
+}
+.crug2{
+	max-width: 39px;
+	min-height: 39px;
+	width: 100%;
+	border-radius: 50%;
+	background-color: white;
+}
+.ded{ 
+	max-width: 400px;
+	width: 100%;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: flex-end;
+	border-bottom: 2px solid #387d89;
+	padding-bottom: 25px;
+}
+.ded2{
+	max-width: 855px;
+	width: 100%;
+	color: white;
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+}
+.doptext3{
+	max-width: 1170px;
+	min-height: 160px;
+	width: 100%;
+	color: white;
+	display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+.ded2 span{
+	color: #efb624;
+}
+@media screen and (max-width: 800px){
+	.doptext p:before{
+		display: none;
+	}
+	.doptext p:after{
+		display: none;
+	}
+	.doptext2 p:before{
+		display: none;
+	}
+	.doptext2 p:after{
+		display: none;
+	}
+}
+@media screen and (max-width: 666px){
+	.inputi{
+		flex-direction: column;
+		padding: 0px 20px;	
+	}
+}
+@media screen and (max-width: 460px){
+	.header{
+		flex-direction: column;
+	}
+}
