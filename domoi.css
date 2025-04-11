@@ -53,11 +53,11 @@
 	text-transform: uppercase;
 }
 .text a{
-    padding: 17px 37px 20px;
+    padding: 17px 34px 20px;
     color: white;
     text-decoration: none;
     background-image: url(images/btn.png);
-    line-height: 19px;
+    line-height: 14px;
 }
 .wrapper{
 	min-height: 320px;
