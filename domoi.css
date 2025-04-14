@@ -53,6 +53,7 @@
 	text-transform: uppercase;
 }
 .text a{
+	width: 140px;
     padding: 17px 34px 20px;
     color: white;
     text-decoration: none;
