@@ -53,7 +53,7 @@
 	text-transform: uppercase;
 }
 .text a{
-	width: 142px;
+    width: 142px;
     padding: 17px 33px 20px;
     color: white;
     text-decoration: none;
@@ -87,7 +87,7 @@
 	font-family: "Fjalla";
 }
 .bu{
-	max-width: 400px;
+	max-width: 350px;
 	text-align: center;
 }
 .crug{
