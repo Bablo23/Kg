@@ -21,7 +21,7 @@
     background-color: #29606b5c;
     border: 1px solid #2a6c78;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     color: white;
     padding-right: 27px;
@@ -39,7 +39,7 @@
 	color: white;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	font-family: "Fjalla";
 }
