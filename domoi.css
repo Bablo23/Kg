@@ -155,6 +155,7 @@ body{
 .doptext p{
 	position: relative;
 	text-align: center;
+	padding: 15px;
 }
 .doptext p:before{
 	content: "";
