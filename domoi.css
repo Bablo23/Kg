@@ -484,6 +484,5 @@ body{
 @media screen and (max-width:500px){
 	.ded{
 		font-size: 13px;
-		max-width: 370px;
 	}
 }
