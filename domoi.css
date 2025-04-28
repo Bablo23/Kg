@@ -481,3 +481,9 @@ body{
 		justify-content: space-around;
 	}
 }
+@media screen and (max-width:500px){
+	.ded{
+		font-size: 15px;
+		max-width: 330px;
+	}
+}
