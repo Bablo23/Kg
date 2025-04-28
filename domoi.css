@@ -478,6 +478,6 @@ body{
 @media screen and (max-width: 460px){
 	.header{
 		flex-direction: column;
-		justify-content: space-between;
+		justify-content: space-around;
 	}
 }
